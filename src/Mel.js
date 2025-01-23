@@ -8,7 +8,8 @@ const Mel = ({ninjas}) => {
           <div> Age: {ninja.age} </div>
           <div> Religion: {ninja.religion} </div>   
         </div>)
-    })
+        
+    });
     return(
       <div className="ninja-list">
         {ninjalist}
