@@ -6,7 +6,7 @@ const Mel = ({ninjas}) => {
         <div className="ninja" key={ninja.id}>
           <div> Name: {ninja.name} </div>
           <div> Age: {ninja.age} </div>
-          <div> Religion: {ninja.religion} </div>   
+          <div> Religion / church: {ninja.religion} </div>   
         </div>)
         
     });
